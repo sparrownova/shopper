@@ -14,7 +14,7 @@ frappe.ui.form.on('QuickBooks Migrator', {
 	onload: function(frm) {
 		frm.trigger("set_indicator")
 		var domain = frappe.urllib.get_base_url()
-		var redirect_url = `${domain}/api/method/shopper.erpnext_integrations.doctype.quickbooks_migrator.quickbooks_migrator.callback`
+		var redirect_url = `${domain}/api/method/shopper.shopper_integrations.doctype.quickbooks_migrator.quickbooks_migrator.callback`
 		if (frm.doc.redirect_url != redirect_url) {
 			frm.set_value("redirect_url", redirect_url)
 		}

@@ -49,13 +49,13 @@ def check_frappe_version():
 		return v.split(".")[0]
 
 	frappe_version = major_version(frappe.__version__)
-	erpnext_version = major_version(shopper.__version__)
+	shopper_version = major_version(shopper.__version__)
 
-	if frappe_version == erpnext_version:
+	if frappe_version == shopper_version:
 		return
 
 	click.secho(
-		f"You're attempting to install Shopper version {erpnext_version} with Frappe version {frappe_version}. "
+		f"You're attempting to install Shopper version {shopper_version} with Frappe version {frappe_version}. "
 		"This is not supported and will result in broken install. Switch to correct branch before installing.",
 		fg="red",
 	)
@@ -166,7 +166,7 @@ def add_company_to_session_defaults():
 def add_standard_navbar_items():
 	navbar_settings = frappe.get_single("Navbar Settings")
 
-	erpnext_navbar_items = [
+	shopper_navbar_items = [
 		{
 			"item_label": "Documentation",
 			"item_type": "Route",
@@ -196,7 +196,7 @@ def add_standard_navbar_items():
 	current_navbar_items = navbar_settings.help_dropdown
 	navbar_settings.set("help_dropdown", [])
 
-	for item in erpnext_navbar_items:
+	for item in shopper_navbar_items:
 		current_labels = [item.get("item_label") for item in current_navbar_items]
 		if not item.get("item_label") in current_labels:
 			navbar_settings.append("help_dropdown", item)

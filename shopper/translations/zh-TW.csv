@@ -346,7 +346,7 @@ Arrear Component,欠費組件
 Criteria Setup,條件設置
 For Warehouse is required before Submit,對於倉庫之前，需要提交
 Medical Code,醫療代號
-Connect Amazon with Shopper,將Amazon與ERPNext連接起來
+Connect Amazon with Shopper,將Amazon與Shopper連接起來
 Please enter Company,請輸入公司名稱
 Against Sales Invoice Item,對銷售發票項目
 Linked Doctype,鏈接的文檔類型
@@ -578,7 +578,7 @@ Classrooms/ Laboratories etc where lectures can be scheduled.,教室/實驗室�
 Company currencies of both the companies should match for Inter Company Transactions.,兩家公司的公司貨幣應該符合Inter公司交易。
 Please enter company name first,請先輸入公司名稱
 Supplier Name,供應商名稱
-Read the Shopper Manual,閱讀ERPNext手冊
+Read the Shopper Manual,閱讀Shopper手冊
 01-Sales Return,01-銷售退貨
 Temporarily on Hold,暫時擱置
 Is Group,是集團
@@ -1059,7 +1059,7 @@ Biotechnology,生物技術
 						 to fullfill Sales Order {2}.",無法將項目{0}（序列號：{1}）用作reserverd \以完成銷售訂單{2}。
 Office Maintenance Expenses,Office維護費用
 Go to ,去
-Update Price from Shopify To Shopper Price List,將Shopify更新到ERPNext價目表
+Update Price from Shopify To Shopper Price List,將Shopify更新到Shopper價目表
 Setting up Email Account,設置電子郵件帳戶
 Please enter Item first,請先輸入品項
 Downtime,停機
@@ -1185,7 +1185,7 @@ Cannot change Service Stop Date for item in row {0},無法更改行{0}中項目�
 Incoming Rate,傳入速率
 Final Assessment Grades,最終評估等級
 The name of your company for which you are setting up this system.,您的公司要為其設立這個系統的名稱。
-Setup your Institute in Shopper,在ERPNext中設置您的研究所
+Setup your Institute in Shopper,在Shopper中設置您的研究所
 Hold,持有
 Alternate Item,替代項目
 Progress Details,進度細節
@@ -1248,7 +1248,7 @@ From Folio No,來自Folio No,
 Purchase Invoice Advance,購買發票提前
 Row {0}: Credit entry can not be linked with a {1},行{0}：信用記錄無法被鏈接的{1}
 Define budget for a financial year.,定義預算財政年度。
-Shopper Account,ERPNext帳戶
+Shopper Account,Shopper帳戶
 {0} is blocked so this transaction cannot proceed,{0}被阻止，所以此事務無法繼續
 Action if Accumulated Monthly Budget Exceeded on MR,如果累計每月預算超過MR，則採取行動
 Operation completed for how many finished goods?,操作完成多少成品？
@@ -1384,7 +1384,7 @@ Unable to find variable: ,無法找到變量：
 Please select a field to edit from numpad,請選擇要從數字鍵盤編輯的字段
 Cannot be a fixed asset item as Stock Ledger is created.,不能成為庫存分類賬創建的固定資產項目。
 Admit,承認
-Go to the Desktop and start using Shopper,轉到桌面和開始使用ERPNext,
+Go to the Desktop and start using Shopper,轉到桌面和開始使用Shopper,
 Pay Remaining,支付剩餘
 Manufacturer,生產廠家
 Purchase Receipt Item,採購入庫項目
@@ -2159,7 +2159,7 @@ Sales Person Commission Summary,銷售人員委員會摘要
 Additional Salary Component,額外的薪資組件
 Transferred,轉入
 Doors,門
-Shopper Setup Complete!,ERPNext設定完成！
+Shopper Setup Complete!,Shopper設定完成！
 Collect Fee for Patient Registration,收取病人登記費
 Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,庫存交易後不能更改屬性。創建一個新項目並將庫存轉移到新項目
 Weightage,權重
@@ -3280,7 +3280,7 @@ Applicable for Countries,適用於國家
 Parameter Name,參數名稱
 Student Group Name is mandatory in row {0},學生組名稱是強制性的行{0}
 Products to be shown on website homepage,在網站首頁中顯示的產品
-This is a root customer group and cannot be edited.,ERPNext是一個開源的基於Web的ERP系統，通過網路技術，向私人有限公司提供整合的工具，在一個小的組織管理大多數流程。有關Web註釋，或購買託管，想得到更多資訊，請連結
+This is a root customer group and cannot be edited.,Shopper是一個開源的基於Web的ERP系統，通過網路技術，向私人有限公司提供整合的工具，在一個小的組織管理大多數流程。有關Web註釋，或購買託管，想得到更多資訊，請連結
 Action if Accumulated Monthly Budget Exceeded on PO,採購訂單上累計每月預算超出時的操作
 Exchange Rate Revaluation,匯率重估
 Ignore Pricing Rule,忽略定價規則
@@ -3517,7 +3517,7 @@ Expense Approver,費用審批
 Row {0}: Advance against Customer must be credit,行{0}：提前對客戶必須是信用
 Hourly,每小時
 Non-Group to Group,非集團集團
-Shopper User,ERPNext用戶
+Shopper User,Shopper用戶
 Batch is mandatory in row {0},在{0}行中必須使用批處理
 Batch is mandatory in row {0},在{0}行中必須使用批處理
 Purchase Receipt Item Supplied,採購入庫項目供應商
@@ -3840,7 +3840,7 @@ Balance ({0}),餘額（{0}）
 Redeem Against,兌換
 Banking and Payments,銀行和支付
 Please enter API Consumer Key,請輸入API使用者密鑰
-Welcome to Shopper,歡迎來到ERPNext,
+Welcome to Shopper,歡迎來到Shopper,
 Lead to Quotation,主導報價
 Email Reminders will be sent to all parties with email contacts,電子郵件提醒將通過電子郵件聯繫方式發送給各方
 Twice Daily,每天兩次
@@ -4195,7 +4195,7 @@ Date of Joining must be greater than Date of Birth,加入日期必須大於出�
 Plans,計劃
 Bank,銀行
 Issue Material,發行材料
-Connect Shopify with Shopper,將Shopify與ERPNext連接
+Connect Shopify with Shopper,將Shopify與Shopper連接
 For Warehouse,對於倉庫
 Delivery Notes {0} updated,已更新交貨單{0}
 Offer Date,到職日期

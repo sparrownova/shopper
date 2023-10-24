@@ -16,7 +16,7 @@ app_include_js = "shopper.bundle.js"
 app_include_css = "shopper.bundle.css"
 web_include_js = "shopper-web.bundle.js"
 web_include_css = "shopper-web.bundle.css"
-email_css = "email_erpnext.bundle.css"
+email_css = "email_shopper.bundle.css"
 
 doctype_js = {
 	"Address": "public/js/address.js",
@@ -26,7 +26,7 @@ doctype_js = {
 	"Contact": "public/js/contact.js",
 }
 
-override_doctype_class = {"Address": "shopper.accounts.custom.address.ERPNextAddress"}
+override_doctype_class = {"Address": "shopper.accounts.custom.address.ShopperAddress"}
 
 override_whitelisted_methods = {
 	"frappe.www.contact.send_message": "shopper.templates.utils.send_message"
@@ -413,7 +413,7 @@ scheduler_events = {
 		],
 	},
 	"hourly": [
-		"shopper.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization",
+		"shopper.shopper_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization",
 		"shopper.projects.doctype.project.project.project_status_update_reminder",
 		"shopper.projects.doctype.project.project.hourly_reminder",
 		"shopper.projects.doctype.project.project.collect_project_status",

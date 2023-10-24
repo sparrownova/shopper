@@ -59,7 +59,7 @@ shopper.integrations.refreshPlaidLink = class refreshPlaidLink {
 
 	async get_link_token_for_update() {
 		const token = frappe.xcall(
-			'shopper.erpnext_integrations.doctype.plaid_settings.plaid_settings.get_link_token_for_update',
+			'shopper.shopper_integrations.doctype.plaid_settings.plaid_settings.get_link_token_for_update',
 			{ access_token: this.access_token }
 		)
 		if (!token) {
@@ -115,7 +115,7 @@ shopper.integrations.refreshPlaidLink = class refreshPlaidLink {
 	}
 
 	plaid_success(token, response) {
-		frappe.xcall('shopper.erpnext_integrations.doctype.plaid_settings.plaid_settings.update_bank_account_ids', {
+		frappe.xcall('shopper.shopper_integrations.doctype.plaid_settings.plaid_settings.update_bank_account_ids', {
 			response: response,
 		}).then(() => {
 			frappe.show_alert({ message: __('Plaid Link Updated'), indicator: 'green' });

@@ -8,7 +8,7 @@ import frappe
 from frappe.utils.response import json_handler
 
 from shopper.accounts.doctype.journal_entry.journal_entry import get_default_bank_cash_account
-from shopper.erpnext_integrations.doctype.plaid_settings.plaid_settings import (
+from shopper.shopper_integrations.doctype.plaid_settings.plaid_settings import (
 	add_account_subtype,
 	add_account_type,
 	add_bank_accounts,

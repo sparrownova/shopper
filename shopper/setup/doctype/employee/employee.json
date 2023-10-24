@@ -26,7 +26,7 @@
   "date_of_joining",
   "image",
   "status",
-  "erpnext_user",
+  "shopper_user",
   "user_id",
   "create_user",
   "create_user_permission",
@@ -275,7 +275,7 @@
   },
   {
    "collapsible": 1,
-   "fieldname": "erpnext_user",
+   "fieldname": "shopper_user",
    "fieldtype": "Section Break",
    "label": "User Details"
   },

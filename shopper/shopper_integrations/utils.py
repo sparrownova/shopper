@@ -26,7 +26,7 @@ def validate_webhooks_request(doctype, hmac_key, secret_key="secret"):
 
 
 def get_webhook_address(connector_name, method, exclude_uri=False, force_https=False):
-	endpoint = "shopper.erpnext_integrations.connectors.{0}.{1}".format(connector_name, method)
+	endpoint = "shopper.shopper_integrations.connectors.{0}.{1}".format(connector_name, method)
 
 	if exclude_uri:
 		return endpoint

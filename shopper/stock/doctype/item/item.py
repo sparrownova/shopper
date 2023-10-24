@@ -355,7 +355,7 @@ class Item(Document):
 						"" if item_barcode.barcode_type not in options else item_barcode.barcode_type
 					)
 					if item_barcode.barcode_type:
-						barcode_type = convert_erpnext_to_barcodenumber(
+						barcode_type = convert_shopper_to_barcodenumber(
 							item_barcode.barcode_type.upper(), item_barcode.barcode
 						)
 						if barcode_type in barcodenumber.barcodes():
@@ -938,8 +938,8 @@ class Item(Document):
 				)
 
 
-def convert_erpnext_to_barcodenumber(erpnext_number, barcode):
-	if erpnext_number == "EAN":
+def convert_shopper_to_barcodenumber(shopper_number, barcode):
+	if shopper_number == "EAN":
 		ean_type = {
 			8: "EAN8",
 			13: "EAN13",
@@ -948,7 +948,7 @@ def convert_erpnext_to_barcodenumber(erpnext_number, barcode):
 		if barcode_length in ean_type:
 			return ean_type[barcode_length]
 
-		return erpnext_number
+		return shopper_number
 
 	convert = {
 		"UPC-A": "UPCA",
@@ -957,10 +957,10 @@ def convert_erpnext_to_barcodenumber(erpnext_number, barcode):
 		"ISBN-13": "ISBN13",
 	}
 
-	if erpnext_number in convert:
-		return convert[erpnext_number]
+	if shopper_number in convert:
+		return convert[shopper_number]
 
-	return erpnext_number
+	return shopper_number
 
 
 def make_item_price(item, price_list_name, item_price):

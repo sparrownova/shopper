@@ -8,7 +8,7 @@
     </p>
 
 [![CI](https://github.com/sparrownova/shopper/actions/workflows/server-tests.yml/badge.svg?branch=develop)](https://github.com/sparrownova/shopper/actions/workflows/server-tests.yml)
-[![UI](https://github.com/shopper/erpnext_ui_tests/actions/workflows/ui-tests.yml/badge.svg?branch=develop&event=schedule)](https://github.com/shopper/erpnext_ui_tests/actions/workflows/ui-tests.yml)
+[![UI](https://github.com/shopper/shopper_ui_tests/actions/workflows/ui-tests.yml/badge.svg?branch=develop&event=schedule)](https://github.com/shopper/shopper_ui_tests/actions/workflows/ui-tests.yml)
 [![Open Source Helpers](https://www.codetriage.com/sparrownova/shopper/badges/users.svg)](https://www.codetriage.com/sparrownova/shopper)
 [![codecov](https://codecov.io/gh/frappe/shopper/branch/develop/graph/badge.svg?token=0TwvyUg3I5)](https://codecov.io/gh/frappe/shopper)
 [![docker pulls](https://img.shields.io/docker/pulls/frappe/shopper-worker.svg)](https://hub.docker.com/r/frappe/shopper-worker)
@@ -65,7 +65,7 @@ New passwords will be created for the Shopper "Administrator" user, the MariaDB 
 1. [Frappe School](https://frappe.school) - Learn Frappe Framework and Shopper from the various courses by the maintainers or from the community.
 2. [Official documentation](https://docs.shopper.com/) - Extensive documentation for Shopper.
 3. [Discussion Forum](https://discuss.shopper.com/) - Engage with community of Shopper users and service providers.
-4. [Telegram Group](https://erpnext_public.t.me) - Get instant help from huge community of users.
+4. [Telegram Group](https://shopper_public.t.me) - Get instant help from huge community of users.
 
 
 ## Contributing

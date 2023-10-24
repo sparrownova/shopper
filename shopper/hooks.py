@@ -1,6 +1,6 @@
 app_name = "shopper"
-app_title = "Shopper"
-app_publisher = "Frappe Technologies Pvt. Ltd."
+app_title = "ShopperPrime"
+app_publisher = "Sparrownova Technologies."
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
 app_color = "#e74c3c"

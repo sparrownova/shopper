@@ -63,8 +63,8 @@ New passwords will be created for the Shopper "Administrator" user, the MariaDB 
 ## Learning and community
 
 1. [Frappe School](https://frappe.school) - Learn Frappe Framework and Shopper from the various courses by the maintainers or from the community.
-2. [Official documentation](https://docs.shopper.com/) - Extensive documentation for Shopper.
-3. [Discussion Forum](https://discuss.shopper.com/) - Engage with community of Shopper users and service providers.
+2. [Official documentation](https://docs.sparrownova.com/) - Extensive documentation for Shopper.
+3. [Discussion Forum](https://discuss.sparrownova.com/) - Engage with community of Shopper users and service providers.
 4. [Telegram Group](https://shopper_public.t.me) - Get instant help from huge community of users.
 
 
@@ -73,7 +73,7 @@ New passwords will be created for the Shopper "Administrator" user, the MariaDB 
 1. [Issue Guidelines](https://github.com/sparrownova/shopper/wiki/Issue-Guidelines)
 1. [Report Security Vulnerabilities](https://sparrownova.com/security)
 1. [Pull Request Requirements](https://github.com/sparrownova/shopper/wiki/Contribution-Guidelines)
-1. [Translations](https://translate.shopper.com)
+1. [Translations](https://translate.sparrownova.com)
 
 
 ## License

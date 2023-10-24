@@ -1,7 +1,7 @@
 # Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
 # License: GNU General Public License v3. See license.txt
 
-# Shopper - web based ERP (http://shopper.com)
+# Shopper - web based ERP (http://sparrownova.com)
 # For license information, please see license.txt
 
 

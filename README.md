@@ -2,7 +2,7 @@
     <a href="https://sparrownova.com">
         <img src="https://raw.githubusercontent.com/sparrownova/shopper/develop/shopper/public/images/shopper-logo.png" height="128">
     </a>
-    <h2>Shopper</h2>
+    <h2>ShopperPrime</h2>
     <p align="center">
         <p>POS made simple</p>
     </p>
@@ -17,7 +17,7 @@
 
 </div>
 
-Shopper as a monolith includes the following areas for managing businesses:
+ShopperPrime as a monolith includes the following areas for managing businesses:
 
 1. [Accounting](https://sparrownova.com/open-source-accounting)
 1. [Warehouse Management](https://sparrownova.com/distribution/warehouse-management-system)
@@ -34,7 +34,7 @@ Shopper as a monolith includes the following areas for managing businesses:
 1. [Customize Shopper](https://sparrownova.com/docs/user/manual/en/customize-shopper)
 1. [And More](https://sparrownova.com/docs/user/manual/en/)
 
-Shopper is built on the [Frappe Framework](https://github.com/sparrownova/frappe), a full-stack web app framework built with Python & JavaScript.
+ShopperPrime is Powered By [Sparrownova](https://github.com/sparrownova/sparrow), a full-stack web app framework built with Python & JavaScript.
 
 ## Installation
 

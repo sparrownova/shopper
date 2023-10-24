@@ -53,7 +53,7 @@ class TestPaymentRequest(unittest.TestCase):
 		pr = make_payment_request(
 			dt="Sales Order",
 			dn=so_inr.name,
-			recipient_id="saurabh@shopper.com",
+			recipient_id="saurabh@sparrownova.com",
 			payment_gateway_account="_Test Gateway - INR",
 		)
 
@@ -67,7 +67,7 @@ class TestPaymentRequest(unittest.TestCase):
 		pr = make_payment_request(
 			dt="Sales Invoice",
 			dn=si_usd.name,
-			recipient_id="saurabh@shopper.com",
+			recipient_id="saurabh@sparrownova.com",
 			payment_gateway_account="_Test Gateway - USD",
 		)
 
@@ -109,7 +109,7 @@ class TestPaymentRequest(unittest.TestCase):
 		pr = make_payment_request(
 			dt="Sales Order",
 			dn=so_inr.name,
-			recipient_id="saurabh@shopper.com",
+			recipient_id="saurabh@sparrownova.com",
 			mute_email=1,
 			payment_gateway_account="_Test Gateway - INR",
 			submit_doc=1,
@@ -131,7 +131,7 @@ class TestPaymentRequest(unittest.TestCase):
 		pr = make_payment_request(
 			dt="Sales Invoice",
 			dn=si_usd.name,
-			recipient_id="saurabh@shopper.com",
+			recipient_id="saurabh@sparrownova.com",
 			mute_email=1,
 			payment_gateway_account="_Test Gateway - USD",
 			submit_doc=1,
@@ -175,7 +175,7 @@ class TestPaymentRequest(unittest.TestCase):
 		pr = make_payment_request(
 			dt="Sales Invoice",
 			dn=si_usd.name,
-			recipient_id="saurabh@shopper.com",
+			recipient_id="saurabh@sparrownova.com",
 			mute_email=1,
 			payment_gateway_account="_Test Gateway - USD",
 			submit_doc=1,
@@ -198,14 +198,14 @@ class TestPaymentRequest(unittest.TestCase):
 
 		# Payment Request amount = 200
 		pr1 = make_payment_request(
-			dt="Sales Order", dn=so.name, recipient_id="nabin@shopper.com", return_doc=1
+			dt="Sales Order", dn=so.name, recipient_id="nabin@sparrownova.com", return_doc=1
 		)
 		pr1.grand_total = 200
 		pr1.submit()
 
 		# Make a 2nd Payment Request
 		pr2 = make_payment_request(
-			dt="Sales Order", dn=so.name, recipient_id="nabin@shopper.com", return_doc=1
+			dt="Sales Order", dn=so.name, recipient_id="nabin@sparrownova.com", return_doc=1
 		)
 
 		self.assertEqual(pr2.grand_total, 800)

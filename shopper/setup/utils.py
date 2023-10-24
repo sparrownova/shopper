@@ -30,7 +30,7 @@ def before_tests():
 				"fy_end_date": f"{current_year}-12-31",
 				"language": "english",
 				"company_tagline": "Testing",
-				"email": "test@shopper.com",
+				"email": "test@sparrownova.com",
 				"password": "test",
 				"chart_of_accounts": "Standard",
 			}

@@ -1,11 +1,11 @@
 {
   "name": "shopper",
-  "description": "Open Source ERP System powered by the Sparrownova",
+  "description": "shopperPrime System powered by the Sparrownova",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sparrownova/shopper.git"
   },
-  "homepage": "https://shopper.com",
+  "homepage": "https://sparrownova.com",
   "author": "Frappe Technologies Pvt. Ltd.",
   "license": "GPL-3.0",
   "bugs": {

@@ -73,11 +73,11 @@ frappe.ui.form.on("Tally Migration", {
 		}
 	},
 
-	shopper_company: function (frm) {
-		frappe.db.exists("Company", frm.doc.shopper_company).then(exists => {
+	sparrownova.company: function (frm) {
+		frappe.db.exists("Company", frm.doc.sparrownova.company).then(exists => {
 			if (exists) {
 				frappe.msgprint(
-					__("Company {0} already exists. Continuing will overwrite the Company and Chart of Accounts", [frm.doc.shopper_company]),
+					__("Company {0} already exists. Continuing will overwrite the Company and Chart of Accounts", [frm.doc.sparrownova.company]),
 				);
 			}
 		});

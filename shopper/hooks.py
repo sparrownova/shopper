@@ -4,7 +4,7 @@ app_publisher = "Sparrownova Technologies."
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
 app_color = "#e74c3c"
-app_email = "info@shopper.com"
+app_email = "info@sparrownova.com"
 app_license = "GNU General Public License (v3)"
 source_link = "https://github.com/sparrownova/Shopper"
 app_logo_url = "/assets/shopper/images/shopper-logo.svg"
@@ -465,7 +465,7 @@ email_brand_image = "assets/shopper/images/shopper-logo.jpg"
 default_mail_footer = """
 	<span>
 		Sent via
-		<a class="text-muted" href="https://shopper.com?source=via_email_footer" target="_blank">
+		<a class="text-muted" href="https://sparrownova.com?source=via_email_footer" target="_blank">
 			Shopper
 		</a>
 	</span>

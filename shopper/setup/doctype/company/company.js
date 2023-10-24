@@ -1,7 +1,7 @@
 // Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
 // License: GNU General Public License v3. See license.txt
 
-frappe.provide("shopper.company");
+frappe.provide("sparrownova.company");
 
 frappe.ui.form.on("Company", {
 	onload: function(frm) {
@@ -19,7 +19,7 @@ frappe.ui.form.on("Company", {
 	},
 	setup: function(frm) {
 		frm.__rename_queue = "long";
-		shopper.company.setup_queries(frm);
+		sparrownova.company.setup_queries(frm);
 
 		frm.set_query("parent_company", function() {
 			return {
@@ -121,7 +121,7 @@ frappe.ui.form.on("Company", {
 			}
 		}
 
-		shopper.company.set_chart_of_accounts_options(frm.doc);
+		sparrownova.company.set_chart_of_accounts_options(frm.doc);
 	},
 
 	make_default_tax_template: function(frm) {
@@ -136,7 +136,7 @@ frappe.ui.form.on("Company", {
 	},
 
 	country: function(frm) {
-		shopper.company.set_chart_of_accounts_options(frm.doc);
+		sparrownova.company.set_chart_of_accounts_options(frm.doc);
 	},
 
 	delete_company_transactions: function(frm) {
@@ -176,7 +176,7 @@ frappe.ui.form.on("Company", {
 });
 
 
-shopper.company.set_chart_of_accounts_options = function(doc) {
+sparrownova.company.set_chart_of_accounts_options = function(doc) {
 	var selected_value = doc.chart_of_accounts;
 	if(doc.country) {
 		return frappe.call({
@@ -196,7 +196,7 @@ shopper.company.set_chart_of_accounts_options = function(doc) {
 	}
 }
 
-shopper.company.setup_queries = function(frm) {
+sparrownova.company.setup_queries = function(frm) {
 	$.each([
 		["default_bank_account", {"account_type": "Bank"}],
 		["default_cash_account", {"account_type": "Cash"}],
@@ -229,7 +229,7 @@ shopper.company.setup_queries = function(frm) {
 		["default_advance_received_account", {"root_type": "Liability", "account_type": "Receivable"}],
 		["default_advance_paid_account", {"root_type": "Asset", "account_type": "Payable"}],
 	], function(i, v) {
-		shopper.company.set_custom_query(frm, v);
+		sparrownova.company.set_custom_query(frm, v);
 	});
 
 	if (frm.doc.enable_perpetual_inventory) {
@@ -244,12 +244,12 @@ shopper.company.setup_queries = function(frm) {
 				{"root_type": "Liability", "account_type": "Service Received But Not Billed"}],
 
 		], function(i, v) {
-			shopper.company.set_custom_query(frm, v);
+			sparrownova.company.set_custom_query(frm, v);
 		});
 	}
 }
 
-shopper.company.set_custom_query = function(frm, v) {
+sparrownova.company.set_custom_query = function(frm, v) {
 	var filters = {
 		"company": frm.doc.name,
 		"is_group": 0

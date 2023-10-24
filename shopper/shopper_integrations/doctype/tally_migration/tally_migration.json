@@ -17,7 +17,7 @@
   "tally_company",
   "default_uom",
   "column_break_8",
-  "shopper_company",
+  "sparrownova.company",
   "processed_files_section",
   "chart_of_accounts",
   "parties",
@@ -96,9 +96,9 @@
   },
   {
    "description": "Your Company set in Shopper",
-   "fieldname": "shopper_company",
+   "fieldname": "sparrownova.company",
    "fieldtype": "Data",
-   "label": "Shopper Company",
+   "label": "sparrownova.company",
    "read_only_depends_on": "eval:doc.is_master_data_processed==1"
   },
   {

@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="https://shopper.com">
+    <a href="https://sparrownova.com">
         <img src="https://raw.githubusercontent.com/sparrownova/shopper/develop/shopper/public/images/shopper-logo.png" height="128">
     </a>
     <h2>ShopperPrime</h2>
@@ -13,26 +13,26 @@
 [![codecov](https://codecov.io/gh/frappe/shopper/branch/develop/graph/badge.svg?token=0TwvyUg3I5)](https://codecov.io/gh/frappe/shopper)
 [![docker pulls](https://img.shields.io/docker/pulls/frappe/shopper-worker.svg)](https://hub.docker.com/r/frappe/shopper-worker)
 
-[https://shopper.com](https://shopper.com)
+[https://sparrownova.com](https://sparrownova.com)
 
 </div>
 
 ShopperPrime as a monolith includes the following areas for managing businesses:
 
-1. [Accounting](https://shopper.com/open-source-accounting)
-1. [Warehouse Management](https://shopper.com/distribution/warehouse-management-system)
-1. [CRM](https://shopper.com/open-source-crm)
-1. [Sales](https://shopper.com/open-source-sales-purchase)
-1. [Purchase](https://shopper.com/open-source-sales-purchase)
-1. [HRMS](https://shopper.com/open-source-hrms)
-1. [Project Management](https://shopper.com/open-source-projects)
-1. [Support](https://shopper.com/open-source-help-desk-software)
-1. [Asset Management](https://shopper.com/open-source-asset-management-software)
-1. [Quality Management](https://shopper.com/docs/user/manual/en/quality-management)
-1. [Manufacturing](https://shopper.com/open-source-manufacturing-erp-software)
-1. [Website Management](https://shopper.com/open-source-website-builder-software)
-1. [Customize Shopper](https://shopper.com/docs/user/manual/en/customize-shopper)
-1. [And More](https://shopper.com/docs/user/manual/en/)
+1. [Accounting](https://sparrownova.com/open-source-accounting)
+1. [Warehouse Management](https://sparrownova.com/distribution/warehouse-management-system)
+1. [CRM](https://sparrownova.com/open-source-crm)
+1. [Sales](https://sparrownova.com/open-source-sales-purchase)
+1. [Purchase](https://sparrownova.com/open-source-sales-purchase)
+1. [HRMS](https://sparrownova.com/open-source-hrms)
+1. [Project Management](https://sparrownova.com/open-source-projects)
+1. [Support](https://sparrownova.com/open-source-help-desk-software)
+1. [Asset Management](https://sparrownova.com/open-source-asset-management-software)
+1. [Quality Management](https://sparrownova.com/docs/user/manual/en/quality-management)
+1. [Manufacturing](https://sparrownova.com/open-source-manufacturing-erp-software)
+1. [Website Management](https://sparrownova.com/open-source-website-builder-software)
+1. [Customize Shopper](https://sparrownova.com/docs/user/manual/en/customize-shopper)
+1. [And More](https://sparrownova.com/docs/user/manual/en/)
 
 ShopperPrime is Powered By [Sparrownova](https://github.com/sparrownova/sparrow), a full-stack web app framework built with Python & JavaScript.
 
@@ -63,17 +63,17 @@ New passwords will be created for the Shopper "Administrator" user, the MariaDB 
 ## Learning and community
 
 1. [Frappe School](https://frappe.school) - Learn Frappe Framework and Shopper from the various courses by the maintainers or from the community.
-2. [Official documentation](https://docs.shopper.com/) - Extensive documentation for Shopper.
-3. [Discussion Forum](https://discuss.shopper.com/) - Engage with community of Shopper users and service providers.
+2. [Official documentation](https://docs.sparrownova.com/) - Extensive documentation for Shopper.
+3. [Discussion Forum](https://discuss.sparrownova.com/) - Engage with community of Shopper users and service providers.
 4. [Telegram Group](https://shopper_public.t.me) - Get instant help from huge community of users.
 
 
 ## Contributing
 
 1. [Issue Guidelines](https://github.com/sparrownova/shopper/wiki/Issue-Guidelines)
-1. [Report Security Vulnerabilities](https://shopper.com/security)
+1. [Report Security Vulnerabilities](https://sparrownova.com/security)
 1. [Pull Request Requirements](https://github.com/sparrownova/shopper/wiki/Contribution-Guidelines)
-1. [Translations](https://translate.shopper.com)
+1. [Translations](https://translate.sparrownova.com)
 
 
 ## License

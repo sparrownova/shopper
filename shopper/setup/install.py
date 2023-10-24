@@ -170,7 +170,7 @@ def add_standard_navbar_items():
 		{
 			"item_label": "Documentation",
 			"item_type": "Route",
-			"route": "https://docs.shopper.com/",
+			"route": "https://docs.sparrownova.com/",
 			"is_standard": 1,
 		},
 		{

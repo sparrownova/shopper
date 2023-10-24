@@ -13,7 +13,7 @@ Costing and Billing,成本核算和計費
 Advance account currency should be same as company currency {0},預付科目貨幣應與公司貨幣{0}相同
 Token Endpoint,令牌端點
 Account {0}: Parent account {1} can not be a ledger,科目{0}：上層科目{1}不能是總帳
-Publish Item to hub.sparrownova.com,發布項目hub.sparrownova.com,
+Publish Item to hub.shopper.com,發布項目hub.shopper.com,
 Default Unit of Measure,預設的計量單位
 All Sales Partner Contact,所有的銷售合作夥伴聯絡
 Leave Approvers,休假審批人
@@ -1332,7 +1332,7 @@ Automatically Create New Batch,自動創建新批
 Admission Start Date,入學開始日期
 Total Amount in Words,總金額大寫
 New Employee,新員工
-There was an error. One probable reason could be that you haven't saved the form. Please contact support@sparrownova.com if the problem persists.,有一個錯誤。一個可能的原因可能是因為您沒有保存的形式。請聯繫support@sparrownova.com如果問題仍然存在。
+There was an error. One probable reason could be that you haven't saved the form. Please contact support@shopper.com if the problem persists.,有一個錯誤。一個可能的原因可能是因為您沒有保存的形式。請聯繫support@shopper.com如果問題仍然存在。
 My Cart,我的購物車
 Order Type must be one of {0},訂單類型必須是一個{0}
 Next Contact Date,下次聯絡日期

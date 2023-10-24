@@ -1,6 +1,6 @@
 {
   "name": "shopper",
-  "description": "shopperPrime System powered by the Sparrownova",
+  "description": "Open Source ERP System powered by the Sparrownova",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sparrownova/shopper.git"

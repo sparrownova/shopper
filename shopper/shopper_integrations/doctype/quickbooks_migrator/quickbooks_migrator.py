@@ -44,7 +44,7 @@ class QuickBooksMigrator(Document):
 
 	def on_update(self):
 		if self.company:
-			# We need a Cost Center corresponding to the selected sparrownova.company
+			# We need a Cost Center corresponding to the selected shopper Company
 			self.default_cost_center = frappe.db.get_value("Company", self.company, "cost_center")
 			company_warehouses = frappe.get_all(
 				"Warehouse", filters={"company": self.company, "is_group": 0}

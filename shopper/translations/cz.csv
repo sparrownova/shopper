@@ -10,7 +10,7 @@ Please select Party Type first,"Prosím, vyberte typ Party první"
 Annealing,Žíhány,
 Customer Items,Zákazník položky,
 Account {0}: Parent account {1} can not be a ledger,Účet {0}: Nadřazený účet {1} nemůže být hlavní kniha,
-Publish Item to hub.sparrownova.com,Publikování položku do hub.sparrownova.com,
+Publish Item to hub.shopper.com,Publikování položku do hub.shopper.com,
 Email Notifications,E-mailová upozorněny,
 Default Unit of Measure,Výchozí Měrná jednotka,
 All Sales Partner Contact,Všechny Partneři Kontakt,
@@ -873,7 +873,7 @@ Get Advances Paid,Získejte zaplacené zálohy,
 Attach Your Picture,Připojit svůj obrázek,
 Total Amount in Words,Celková částka slovy,
 Stop,Stop,
-There was an error. One probable reason could be that you haven't saved the form. Please contact support@sparrownova.com if the problem persists.,"Došlo k chybě. Jedním z důvodů by mohlo být pravděpodobné, že jste uložili formulář. Obraťte se prosím na support@sparrownova.com Pokud problém přetrvává."
+There was an error. One probable reason could be that you haven't saved the form. Please contact support@shopper.com if the problem persists.,"Došlo k chybě. Jedním z důvodů by mohlo být pravděpodobné, že jste uložili formulář. Obraťte se prosím na support@shopper.com Pokud problém přetrvává."
 % of materials billed against this Purchase Order.,% Materiálů fakturovaných proti této objednávce.
 Order Type must be one of {0},Typ objednávky musí být jedním z {0}
 Next Contact Date,Další Kontakt Datum,

@@ -1,10 +1,10 @@
 ## Logo and Trademark Policy
 
-The brand name Shopper and the logo are trademarks of Frappe Technologies Pvt. Ltd.
+The brand name Shopper and the logo are trademarks of Sparrownova Technologies.
 
 ### Introduction
 
-Frappe Technologies Pvt. Ltd. (Frappe) owns and oversees the trademarks for the Shopper name and logos. We have developed this trademark usage policy with the following goals in mind:
+Sparrownova Technologies. (Frappe) owns and oversees the trademarks for the Shopper name and logos. We have developed this trademark usage policy with the following goals in mind:
 
 - We’d like to make it easy for anyone to use the Shopper name or logo for community-oriented efforts that help spread and improve Shopper.
 - We’d like to make it clear how Shopper-related businesses and projects can (and cannot) use the Shopper name and logo.

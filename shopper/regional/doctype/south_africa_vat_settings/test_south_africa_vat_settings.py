@@ -1,4 +1,4 @@
-# Copyright (c) 2021, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2021, Sparrownova Technologies. and Contributors
 # See license.txt
 
 # import frappe

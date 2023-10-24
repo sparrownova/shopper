@@ -1,4 +1,4 @@
-# Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2015, Sparrownova Technologies and Contributors
 # License: GNU General Public License v3. See license.txt
 
 
@@ -176,7 +176,7 @@ def add_standard_navbar_items():
 		{
 			"item_label": "User Forum",
 			"item_type": "Route",
-			"route": "https://discuss.frappe.io",
+			"route": "https://discuss.spapprownova.com",
 			"is_standard": 1,
 		},
 		{

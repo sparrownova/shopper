@@ -1,9 +1,9 @@
 [project]
 name = "shopper"
 authors = [
-    { name = "Frappe Technologies Pvt Ltd", email = "developers@frappe.io"}
+    { name = "Sparrownova Technologies", email = "developers@spapprownova.com"}
 ]
-description = "Open Source ERP"
+description = "Sparrownova ShopperPrime"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

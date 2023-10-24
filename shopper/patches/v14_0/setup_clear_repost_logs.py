@@ -1,4 +1,4 @@
-# Copyright (c) 2022, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2022, Sparrownova Technologies. and Contributors
 # License: MIT. See LICENSE
 
 from shopper.setup.install import setup_log_settings

@@ -170,7 +170,7 @@ def add_standard_navbar_items():
 		{
 			"item_label": "Documentation",
 			"item_type": "Route",
-			"route": "https://docs.shopper.com/",
+			"route": "https://docs.sparrownova.com/",
 			"is_standard": 1,
 		},
 		{
@@ -180,15 +180,15 @@ def add_standard_navbar_items():
 			"is_standard": 1,
 		},
 		{
-			"item_label": "Frappe School",
+			"item_label": "Sparrownova ERP Help",
 			"item_type": "Route",
-			"route": "https://frappe.school?utm_source=in_app",
+			"route": "https://sparrownova.com?utm_source=in_app",
 			"is_standard": 1,
 		},
 		{
 			"item_label": "Report an Issue",
 			"item_type": "Route",
-			"route": "https://github.com/sparrownova/Shopper/issues",
+			"route": "https://sparrownova.com/Shopper/issues",
 			"is_standard": 1,
 		},
 	]
